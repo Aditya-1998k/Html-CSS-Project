@@ -1,32 +1,20 @@
 /* Our CSS file. */
 
-html, 
-body { height: 100%; 
-    padding: 0; 
-    margin: 0;
- } 
- div 
- { width: 50%; 
-    height: 50%; 
-    position:fixed;
- }
-#div1{
-    
-    top:0;
-    left: 0;
-}
-#div2{
+.container{
+    width:100%;
+    height:auto;
+    border:0.5px solid grey;
+    background-color: rgb(220, 215, 215);
+    }
+   .row{
+       width: 100%;
+       display: block;
+       height: 400px;
+   } 
+   .coloumn{
+       width:50%;
+       display: inline-block;
+       height: inherit;
+       float:left;
+    }
    
-    top:0;
-    left:50%;
-}
-#div3{
-   
-    top:50%;
-    left: 0;
-}
-#div4{
-    
-    top:50%;
-    left: 50%;
-}
