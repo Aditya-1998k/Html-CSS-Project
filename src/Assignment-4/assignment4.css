@@ -1,7 +1,108 @@
 /* Our CSS file. */
 
 
-.container, .content {
+#container{
 width: 100%;
 height: 100%;
+}
+header{
+    background-color:black;
+    height: 80px;
+    width: 100%;
+}
+.logo,.navigation{
+    width: 50%;
+    display: block;
+
+}
+.logo{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    float: left;
+}
+
+.navigation{
+    float: right;
+    text-align: right;
+    margin: 30px;
+    padding: 10px;
+}
+span{
+    margin: 20px;
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+header, .information{
+    margin: 0;
+}
+.information{
+    background-image: url(../Assignment-4/image/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    height: 400px;
+    width: 100%;
+    position: relative;
+    top: 0px;
+}
+.information h3,.information img,.information button{
+    display: block;
+    margin: 25px;
+}
+.information img{
+    border-radius: 50cm;
+    height: 250px;
+    width: 250px;
+    border: 5px solid blue;
+    margin-left:auto;
+    margin-right: auto;
+}
+.information button{
+    color: white;
+    background-color: black;
+    border-color: black;
+    margin-left:auto;
+    margin-right: auto;
+}
+section{
+    background-color: white;
+    display: block;
+    float: left;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 1.5%;
+    height: 400px;
+    text-align: center;
+}
+section img{
+    border-radius: 50cm;
+    height: 150px;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid black;
+    text-align: center;
+    
+}
+section button{
+    background-color: black;
+}
+.section-content,.media{
+    display: inline-block;
+}
+
+.media{
+    background-color: black;
+    text-align: center;
+    color: white;
+    width: 100%;
+}
+.media span img{
+    height: 50px;
+    width: 50px;
 }
