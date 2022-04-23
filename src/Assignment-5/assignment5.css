@@ -1,7 +1,53 @@
 /* Our CSS file. */
 
-
-.container, .content {
-width: 100%;
-height: 100%;
+body{
+    width: 100%;
+}
+#container{
+    width: 80%;
+    height: 600px;
+    position: absolute;
+    left: 10%;
+    right: 10%;
+   
+}
+.row{
+    display: flex;
+    height: 50%;
+    border: 2px solid black;
+    margin: 2px;
+}
+.coloumn1,.coloumn2{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 20px;
+}
+.coloumn1{
+    background-color:green;
+}
+.coloumn1 img{
+    width: 105%;
+    height: 103%;
+    margin-left: -2%;
+    margin-top: -2%;
+}
+.button-part{
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    font-size: 100%;
+    border: 2px solid black;
+    width: 130px;
+    border-radius: 20px;
+}
+.button-part-2{
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    font-size: 100%;
+    border: 2px solid black;
+    width: 130px;
+    border-radius: 20px;
+    box-shadow: 10px 10px;
 }
